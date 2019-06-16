@@ -47,7 +47,7 @@ namespace server
                     if (data == "true")
                     {
                         Random random = new Random();
-                        int rnd = random.Next(0, 7);
+                        int rnd = random.Next(0, 8);
 
                         switch (rnd)
                         {
@@ -156,18 +156,18 @@ namespace server
                                 "597,252," +
                                 "541,113";
                                 break;
-                            /*                           case 2:
-                                                           reply = "507,22," +
-                                           "377,122," +
-                                           "513,168," +
-                                           "352,248," +
-                                           "390,300," +
-                                           "526,301," +
-                                           "536,203," +
-                                           "668,198," +
-                                           "634,101," +
-                                           "490,106";
-                                                           break;*/
+                            case 7:
+                                reply = "507,22," +
+                                "377,122," +
+                                "513,168," +
+                                "352,248," +
+                                "390,300," +
+                                "526,301," +
+                                "536,203," +
+                                "668,198," +
+                                "634,101," +
+                                "490,106";
+                                break;
                             default:
                                 break;
                         }
