@@ -50,8 +50,7 @@ namespace triangulation
                 return;
 
             //рисуем drawCount треугольников
-            for (int i = 0; i < drawCount; i++)
-            {
+            for (int i = 0; i < drawCount; i++){
                 Triangle t = trians[i];
 
                 p.Reset();
@@ -62,6 +61,8 @@ namespace triangulation
                 trianBrush.Color = colors[i];
                 g.FillPath(trianBrush, p);
             }
+            drawCount = 0;
+            
         }
 
 
@@ -78,8 +79,12 @@ namespace triangulation
         private void OnDraw(object sender, EventArgs e)
         {
             string[] strCoord = textBox1.Text.Split(',');
-
             float[] fltCoord = Array.ConvertAll(strCoord, float.Parse);
+            if(fltCoord.Length % 2 == 1 || fltCoord.Length < 6)
+            {
+                MessageBox.Show("Введенные координаты не являются многоугольником", "Ошибка!");
+            }
+            else
             triangulate(fltCoord);
         }
 
@@ -136,6 +141,12 @@ namespace triangulation
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)//обрабатываем на ввод только цифры, бекспейс и запятую
+        {
+                if (e.KeyChar !=44 && e.KeyChar !=8 && (e.KeyChar < 48 || e.KeyChar > 57))
+                    e.Handled = true;
         }
 
         private void triangulate(float[] arr)
