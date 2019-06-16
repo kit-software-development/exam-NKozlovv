@@ -1,0 +1,7 @@
+C:\Users\Никита\Desktop\Project\triangulation\server\bin\Debug\server.exe.config
+C:\Users\Никита\Desktop\Project\triangulation\server\bin\Debug\server.exe
+C:\Users\Никита\Desktop\Project\triangulation\server\bin\Debug\server.pdb
+C:\Users\Никита\Desktop\Project\triangulation\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Project\triangulation\server\obj\Debug\server.exe
+C:\Users\Никита\Desktop\Project\triangulation\server\obj\Debug\server.pdb
+C:\Users\Никита\Desktop\Project\triangulation\server\obj\Debug\server.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\bin\Debug\triangulation.exe.config
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\bin\Debug\triangulation.exe
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\bin\Debug\triangulation.pdb
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.MainForm.resources
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.Properties.Resources.resources
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.exe
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.pdb
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\bin\Debug\Database.mdf
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\bin\Debug\Database_log.ldf
+C:\Users\Никита\Desktop\Project\triangulation\triangulation\obj\Debug\triangulation.FigureForm.resources
