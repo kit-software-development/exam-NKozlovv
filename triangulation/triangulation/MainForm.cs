@@ -66,17 +66,17 @@ namespace triangulation
         }
 
 
-        private void OnClear(object sender, EventArgs e)
+        private void OnClear(object sender, EventArgs e)//очистка на кнопку
         {
             pictureBox1.Image = null;
         }
 
-        private void OnPrevious(object sender, EventArgs e)
+        private void OnPrevious(object sender, EventArgs e)//переход к истории
         {
             new FigureForm().Show();
         }
 
-        private void OnDraw(object sender, EventArgs e)
+        private void OnDraw(object sender, EventArgs e)//обработка введенных координат
         {
             string[] strCoord = textBox1.Text.Split(',');
             float[] fltCoord = Array.ConvertAll(strCoord, float.Parse);
@@ -88,7 +88,7 @@ namespace triangulation
             triangulate(fltCoord);
         }
 
-        private void draw()
+        private void draw()//отрисовка
         {
             bitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             g = Graphics.FromImage(bitmap);
@@ -99,7 +99,7 @@ namespace triangulation
             pictureBox1.Image = bitmap;
         }
 
-        private void OnRandomize(object sender, EventArgs e)
+        private void OnRandomize(object sender, EventArgs e)//Запрос на случайный полигон отправляется на сервер
         {
             byte[] bytes = new byte[1024];
             // Устанавливаем удаленную точку для сокета
@@ -135,11 +135,6 @@ namespace triangulation
             sender1.Close();
 
 
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -206,7 +201,7 @@ namespace triangulation
 
         }
 
-        private void ToDB(float[] coords)
+        private void ToDB(float[] coords)//пересылаем координаты в базу данных
         {
             string strCoors = string.Join(",", coords);
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();

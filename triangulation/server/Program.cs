@@ -10,6 +10,7 @@ namespace server
 {
     class Server
     {
+        
         static void Main(string[] args)
         {
             // Устанавливаем для сокета локальную конечную точку
